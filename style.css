@@ -1,0 +1,70 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} */
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://akm-img-a-in.tosshub.com/businesstoday/images/story/202303/ezgif-sixteen_nine_114.jpg?size=948:533);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#card {
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#card img {
+    height: 300px;
+    width: 70%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#card h1 {
+    font-size: 35px;
+    font-weight: 5px;
+    margin: 10px 0px;
+}
+
+#card h5 {
+    font-size: 20px;
+    color: red;
+    margin: 20px 0px;
+
+}
+
+#card button {
+    background-color: cornflowerblue;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+#card #remove {
+    background-color: #dadadada;
+    color: black;
+    cursor: pointer;
+}
+
+#card #add {
+    cursor: pointer;
+}
